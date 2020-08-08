@@ -123,7 +123,7 @@ body{
 .btn_div{
    margin: 10px 0;
    display: grid;
-   grid-template-columns: repeat(4, 11vw);
+   grid-template-columns: repeat(4, 1fr);
 }
 .btn_div a{
    text-decoration: none;
