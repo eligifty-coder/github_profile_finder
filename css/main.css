@@ -99,6 +99,7 @@ body{
    width: 100%;
    height: 100%;
    object-fit: cover;
+   cursor: pointer;
 }
 
 .div_details .img_div:hover img {
@@ -131,8 +132,8 @@ body{
    color:#fff;
    display: inline-block;
    font-weight: 500;
-   font-size: 10px;
-   padding: 6px 8px;
+   font-size: 7px;
+   padding: 6px 2px;
    border-radius:40px 10px ;
    text-align: center;
 }
@@ -189,6 +190,9 @@ body{
    .btn_div {
       margin-top: -15px !important;
    }
+   .btn_div a{
+      font-size: 10px;
+   }
 
    .detail_div div {
       padding: 15px;
@@ -230,6 +234,9 @@ body{
    border: 1px solid #ccc;
    padding:7px 0;
 }
+.single-repo a{
+   font-size: 7px;
+}
 .single-repo .first a{
    color: rgb(85, 130, 217);
 }
@@ -258,6 +265,7 @@ body{
    }
    .single-repo a {
       padding: 5px 25px;
+      font-size: 9px;
    }
 }
 /* footer */
