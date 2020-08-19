@@ -3,95 +3,122 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
    <title>Github Profile Finder</title>
    <!-- google font -->
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="./main.css">
+   <!-- ico -->
+   <link rel="shortcut icon" href="./images/github.ico" type="image/x-icon">
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="./css/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- loader -->
+   <link rel="stylesheet" href="./css/loader1.css">
+   <!-- custom css -->
+   <link rel="stylesheet" href="./css/main.css">
+   
 </head>
 <body>
-   <header class="header">
-      <h3>Github Finder</h3>
-   </header>
-   <form action="" id="myForm">
-      <h2>Search Github Users</h2>
-      <h5>Enter a username to fetch profile and repos</h5>
-      <div class="btn_grid">
-         <input type="text" placeholder="Github Username..." class="my_input">
-         <input type="button" class="form_btn" value="Click to search">
-      </div>
-   </form>
-   <section id="profile">
-      <div class="section_center">
-         <div class="div_details">
-            <div class="img_div">
-               <img src="./6.jpeg" alt="Jae">
-            </div>
-            <a href="#">View Profile</a>
+      <div class="container1">
+         <!-- loader 1 -->
+         <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
          </div>
-         <div class="info_main">
-            <div class="info_div">
-               <div class="btn_div">
-                  <a href="#">Public Repos: 71</a>
-                  <a href="#">Public Gist:18</a>
-                  <a href="#">Followers:415</a>
-                  <a href="#">Following:0</a>
+         <a href="index.html">Go to HomePage</a>
+      </div>
+      <div class="main">
+      <header class="header">
+         <h3>Github Finder</h3>
+      </header>
+      <form action="" id="myForm">
+         <h2>Search Github Users</h2>
+         <h5>Enter a username to fetch profile and repos</h5>
+         <div class="btn_grid">
+            <input type="text" placeholder="Github Username..." class="my_input">
+            <input type="button" class="form_btn" value="Click to search">
+         </div>
+      </form>
+      <section id="profile">
+         <div class="section_center">
+            <div class="div_details">
+               <div class="img_div">
+                  <img src="./images/6.jpeg" alt="Jae">
                </div>
-               <div class="detail_div">
-                  <div class="company">
-                     <h4>Company:Azerion</h4>
+               <a href="https://api.github.com/users/Gift-coder">View Profile</a>
+            </div>
+            <div class="info_main">
+               <div class="info_div">
+                  <div class="btn_div">
+                     <a href="#">Public Repos: <span>71</span></a>
+                     <a href="#">Public Gist:<span>71</span></a>
+                     <a href="#">Followers:<span>71</span></a>
+                     <a href="#">Following:<span>71</span></a>
                   </div>
-                  <div class="website">
-                     <h4>Website/Blog:</h4>
-                  </div>
-                  <div class="location">
-                     <h4>Location: Amsterdam, Netherland</h4>
-                  </div>
-                  <div class="member">
-                     <h4>Member since : 2010-01-11T09:57:25Z</h4>
+                  <div class="detail_div">
+                     <div class="company">
+                        <h4>Company: <span>Azerion</span></h4>
+                     </div>
+                     <div class="website">
+                        <h4>Website/Blog: <span></span></h4>
+                     </div>
+                     <div class="location">
+                        <h4>Location: <span>Amsterdam, Netherland</span></h4>
+                     </div>
+                     <div class="member">
+                        <h4>Member since : <span>2010-01-11T09:57:25Z</span></h4>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
+      </section>
+      <section id="repos">
+         <h2>latest Repos</h2>
+         <div class="repo_info">
+            <div class="single-repo">
+               <div class="first">
+                  <a href="#">empty-project</a>
+               </div>
+               <div class="second">
+                  <a href="#">Stars: 0 <span><i class="far fa-star" style="padding-left: 1px;"></i></span> </a>
+                  <a href="#">Watchers : 0 <span><i class="fa fa-eye"
+                           style="background: rgb(178, 176, 176); padding-left: 1px;"></i></span>
+                  </a>
+                  <a href="#">Forks: 2 <span><i class="fa fa-code-branch"
+                           style="background: rgb(86, 162, 121);padding-left: 1px;"></i></span></a>
+               </div>
+            </div>
+         <div class="single-repo">
+               <div class="first">
+                  <a href="#">empty-project</a>
+               </div>
+               <div class="second">
+                  <a href="#">Stars: 0 <span><i class="far fa-star" style="padding-left: 1px;"></i></span> </a>
+                  <a href="#">Watchers : 0 <span><i class="fa fa-eye" style="background: rgb(178, 176, 176); padding-left: 1px;"></i></span>
+                     </a>
+                  <a href="#">Forks: 2 <span><i class="fa fa-code-branch"
+                           style="background: rgb(86, 162, 121);padding-left: 1px;"></i></span></a>
+               </div>
+            </div>
+            <div class="single-repo">
+               <div class="first">
+                  <a href="#">empty-project</a>
+               </div>
+               <div class="second">
+                  <a href="#">Stars: 0 <span><i class="far fa-star" style="padding-left: 1px;"></i></span> </a>
+                  <a href="#">Watchers : 0 <span><i class="fa fa-eye" style="background: rgb(178, 176, 176); padding-left: 1px;"></i></span>
+                     </a>
+                  <a href="#">Forks: 2 <span><i class="fa fa-code-branch"
+                           style="background: rgb(86, 162, 121);padding-left: 1px;"></i></span></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <h4>GitHub Finder &copy;</h4>
+      </footer>
       </div>
-   </section>
-   <section id="repos">
-      <h2>latest Repos</h2>
-      <div class="repo_info">
-         <div class="single-repo">
-            <div class="first">
-               <a href="#">empty-project</a>
-            </div>
-            <div class="second">
-               <a href="#">Stars:0</a>
-               <a href="#">Watchers : 0</a>
-               <a href="#">Forks:0</a>
-            </div>
-         </div>
-         <div class="single-repo">
-            <div class="first">
-               <a href="#">empty-project</a>
-            </div>
-            <div class="second">
-               <a href="#">Stars:0</a>
-               <a href="#">Watchers : 0</a>
-               <a href="#">Forks:0</a>
-            </div>
-         </div>
-         <div class="single-repo">
-            <div class="first">
-               <a href="#">empty-project</a>
-            </div>
-            <div class="second">
-               <a href="#">Stars:0</a>
-               <a href="#">Watchers : 0</a>
-               <a href="#">Forks:0</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <footer class="footer">
-      <h4>GitHub Finder &copy;</h4>
-   </footer>
    <script src="./script.js"></script>
 </body>
 </html>
