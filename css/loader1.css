@@ -5,6 +5,7 @@
 }
 body{
    background: #fff;
+   height: 10vh;
 }
 .main{
    position: relative;
@@ -23,6 +24,12 @@ body{
    transform: translate(-50% -50%);
    opacity: 0;
    transition: opacity 10s ease linear;
+}
+.hidden{
+   display: none;
+}
+.showed{
+   display: block;
 }
 .show{
    z-index: 999;

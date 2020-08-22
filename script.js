@@ -16,10 +16,16 @@ const member = document.querySelector('.member h4 span');
 const repo_container =document.querySelector('.repo_info');
 const container = document.querySelector('.container1');
 const main = document.querySelector('.main')
+const div_details = document.querySelector('#profile')
+const repos = document.querySelector('#repos')
 let html ="";
 let itemArr =[]
+div_details.classList.add("hidden");
+repos.classList.add("hidden");
 
 	btn.addEventListener('click', () => {
+      div_details.classList.remove('hidden')
+      repos.classList.remove('hidden');
       itemArr=[];
 		const val = input.value;
 		const user = val.replace(/(^\s+|\s+$)/g, '');
