@@ -5,4 +5,9 @@
 * script.js
 * page_notfound.hmtl
 * page_notfound.css
-![the UI of Git_profile_finder](/images/github_profile_finder.PNG)
+
+#### The initial UI of my Project
+![the initial UI of Git_profile_finder](/images/github_profile_finder.PNG)
+
+#### The UI of my Project after fetching the Github API
+![the  UI of Git_profile_finder after API fetch](/images/final_ui.PNG)
