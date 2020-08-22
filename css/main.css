@@ -167,7 +167,9 @@ body{
    font-weight: 300;
    font-size: 12px;
 }
-
+#profile{
+   transition: all 2s ease;
+}
 @media screen and (min-width:996px) {
    #profile {
       width: 80vw;
@@ -210,6 +212,7 @@ body{
 #repos{
    border: none;
    padding: 5px 5px;
+   transition: all 2s ease;
 }
 #repos h2{
    text-transform: capitalize;
