@@ -56,8 +56,6 @@ repos.classList.add("hidden");
             if(fetch_url.status==404 && fetch_json.message=="Not Found"){
                window.location = 'page_notfound.html'
             }
-            console.log(fetch_url);
-            console.log(fetch_json);
             profile.addEventListener('click', () => {
                event.preventDefault();
                window.location = fetch_json.html_url;
@@ -65,17 +63,14 @@ repos.classList.add("hidden");
             fetchRepo(fetch_json.repos_url);
             input.value = ' ';
          }catch(err){
-            console.log('oops',err)
          }
       }
 
 const fetchRepo = async (user)=>{
-   console.log(user)
    const repo = await fetch(user);
          const repo_json = await repo.json()
          itemArr = [...repo_json]
          updateRepo(repo_json)
-         console.log(itemArr)
 }
 updateRepo = (items)=>{
    items.forEach(item=>{
