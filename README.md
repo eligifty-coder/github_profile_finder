@@ -14,6 +14,6 @@
 
 
 #### Live DEMO
-[Go to the Support Web Site](https://eligifty-coder.github.io/github_profile_finder/)
+[Github_profile_finder](https://eligifty-coder.github.io/github_profile_finder/)
 
 
