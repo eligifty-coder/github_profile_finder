@@ -11,3 +11,9 @@
 
 #### The UI of my Project after fetching the Github API
 ![the  UI of Git_profile_finder after API fetch](/images/final_ui.PNG)
+
+
+#### Live DEMo
+![Github_profile_finder]( https://eligifty-coder.github.io/github_profile_finder/)
+
+
